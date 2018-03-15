@@ -3,11 +3,11 @@
 
   {% include head.html %}
   <script>
-    //added this because one.com does not do mobile viewport very well
     var meta = document.createElement('meta');
     meta.httpEquiv = "viewport";
     meta.content = "initial-scale=1, maximum-scale=1";
     window.parent.document.getElementsByTagName('head')[0].appendChild(meta);
+    //added this because one.com does not do mobile viewport very well
   </script>
   <body>
 
